@@ -9,6 +9,11 @@
 This is a simple task list application created to practice backend development with **Flask** and basic **HTML** form handling.  
 Users can add tasks and remove them by clicking the "Remove" button next to each item.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b75dfd5e-beb6-4616-9373-f89dab1cc8e7" alt="Alarm Clock Screenshot" width="100%">
+</div>
+
+
 ---
 
 ## ⏳ Features
