@@ -90,3 +90,19 @@ li button {
   border-radius: 15px;
 }
 
+footer {
+    background-color: #2e2e2e;
+    color: #989795;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #989795;
+    text-decoration: none;
+}
+
