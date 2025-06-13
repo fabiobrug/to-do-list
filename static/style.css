@@ -1,0 +1,92 @@
+/* Importa as fontes */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+body {
+  font-family: 'Comic Neue', cursive, sans-serif;
+  background-color: #F7CAC9;
+  color: #6B5B95;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive, sans-serif;
+  color: #FF6F61;
+  margin-bottom: 20px;
+  font-size: 70px;
+}
+
+input[type="text"], input[type="number"] {
+  font-family: 'Comic Neue', cursive, sans-serif;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 2px solid #6B5B95;
+  border-radius: 15px;
+  width: 250px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+  border-color: #FF6F61;
+}
+
+button {
+  background-color: #FCE205;
+  color: #6B5B95;
+  font-family: 'Baloo 2', cursive, sans-serif;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background-color: #88B04B;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+li {
+  background-color: #FF6F61;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+li form {
+  margin: 0;
+}
+
+li button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 15px;
+}
+

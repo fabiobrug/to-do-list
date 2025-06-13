@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="..\static\style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <h1>To-Do List</h1>
+
+    <form method="POST">
+        <input type="text" name="task" placeholder="Nova Tarefa" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <ul>
+        {% for t in tasks %}
+        <li>
+        {{ t }}
+        <form action="/delete/{{ loop.index0 }}" method="POST" style="display: inline;">
+            <button type="submit">Remove</button>
+        </form>
+        </li>
+        {% endfor %}
+    </ul>
+
+   
+</body>
+</html>
