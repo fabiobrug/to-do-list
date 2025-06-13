@@ -70,7 +70,6 @@ You should see the task list app running locally.
 
 ## 🌐 Access the Hosted Project
 
-The project will be available online at:  
-[Your Project Link Here](https://your-hosted-project-link.com)
+The project will be available online at: [Here](https://to-do-list-production-aaee.up.railway.app)
 
 ---
